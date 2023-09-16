@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="title-container">
+        <h1 id="title">IMDB MOVIE APP</h1>
+    </div>
+    <div class="search-container">
+        <div>
+            <input type="search" class="search" id="api-search" placeholder="API_KEY">
+            <!-- <img src="./Vector.svg" alt="key" id="icon-1"> -->
+        </div>
+        <div>
+            <input type="search" class="search" id="movie-search" placeholder="Search">
+            <!-- <i class="fa-solid fa-magnifying-glass fa-flip-horizontal" id="icon-2" style="color: #67686d;"></i> -->
+        </div>
+        <button id="search-button">Search</button>
+        <p class="warning"></p>
+    </div>
+    <div class="spinner-container">
+        <span class="loader"></span>
+    </div>
+    <div  id="card-container">
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
