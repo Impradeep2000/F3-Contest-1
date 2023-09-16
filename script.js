@@ -1,4 +1,4 @@
-let API_KEY = "";
+let API_KEY = ""; //  eea5d4f2
 let SEARCH_TERM = "";
 
 const searchButton = document.getElementById("search-button");
